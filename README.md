@@ -14,8 +14,7 @@ Sistema multiagente para patrullaje autónomo en zonas de riesgo. Integra 1 dron
 ### 2. Unity
 - **Carpeta:** `Unity/`
   - `Unity.pdf`: Documento que contiene el link al ZIP del proyecto de Unity en OneDrive.
-  - También, Puedes descargar el proyecto desde el siguiente enlace: https://tecmx-my.sharepoint.com/:f:/g/personal/a01642991_tec_mx/EuwS9JaEPfZDibjqxOMPIswBWsZmSHfhwzty90_sGyTbEw?e=ZdFC5W
-
+    
  ### 3. Documentación
 - **Carpeta:** `Documentacion/`
   - `Documentación - Documentación - Evidencia 2 - Entrega Intermedia.pdf`: Propuesta formal del reto, que incluye:
@@ -40,7 +39,7 @@ Sistema multiagente para patrullaje autónomo en zonas de riesgo. Integra 1 dron
      ```
 ### 2. Acceso a Unity
 
-1. **Descomprime el archivo ZIP** en una carpeta, por ejemplo: `C:\Proyectos\MultiAgent-Security-System`.  
+1. **Descomprime el archivo ZIP** encontrado a forma de link en la carpeta "Unity" en una carpeta, por ejemplo: `C:\Proyectos\MultiAgent-Security-System`.  
 
 2. **Abre Unity Hub**, haz clic en **"Add"** y selecciona la carpeta raíz del proyecto.  
 
