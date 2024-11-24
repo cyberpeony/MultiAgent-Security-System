@@ -18,7 +18,7 @@ Sistema multiagente para patrullaje autónomo en zonas de riesgo. Integra 1 dron
     
  ### 3. Documentación
 - **Carpeta:** `Documentacion/`
-  - `Documentación - Documentación - Evidencia 2 - Entrega Intermedia.pdf`: Propuesta formal del reto, que incluye:
+  - `Documentación - Evidencia 2 - Entrega Intermedia.pdf`: Propuesta formal del reto, que incluye:
     - Descripción del problema.
     - Propiedades de agentes y del ambiente.
     - Diagramas de clases y secuencia.
