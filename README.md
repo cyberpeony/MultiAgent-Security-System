@@ -1,7 +1,3 @@
-Aquí tienes el README con la nueva sección:  
-
----
-
 # MultiAgent-Security-System  
 
 Sistema multiagente para patrullaje autónomo en zonas de riesgo. Integra 1 dron con cámara dinámica, 7 cámaras estáticas y personal de seguridad, todos con visión computacional para detectar y responder a riesgos o actividades sospechosas. Incluye código de los agentes, simulación en Unity y documentación.  
@@ -25,4 +21,8 @@ https://tecmx-my.sharepoint.com/:f:/g/personal/a01642991_tec_mx/EuwS9JaEPfZDibjq
 
 4. **Abre el proyecto** desde Unity Hub. Unity procesará los archivos automáticamente.  
 
-Con estos pasos, deberías poder ejecutar el proyecto correctamente.  
+Con estos pasos, deberías poder ejecutar el proyecto correctamente.
+
+# Scripts de vision computacional y  Scripts de Unity:
+Los scripts utilizados estan en este repo en la carpeta de code, y lo de computer vision es el zip dentro de Code llamado Openai_vision.zip
+
