@@ -7,9 +7,8 @@ Sistema multiagente para patrullaje autónomo en zonas de riesgo. Integra 1 dron
 
 ### 1. Código
 - **Carpeta:** `Codigo/`
-  - `DronAgentes.py`: Implementación de los agentes en Python (DroneAgent, GuardAgent, CameraAgent) y su lógica de interacción.
+  - `DronAgentes.py`: Implementación de los agentes en Python (DroneAgent, GuardAgent, CameraAgent), la Ontología de Agentes y su lógica de interacción.
   - `ontology.owl`: Script de manejo de la ontología.
-  - `ontology.py`: Ontología desarrollada para modelar las relaciones y atributos de los agentes.
 
 ### 2. Unity
 - **Carpeta:** `Unity/`
