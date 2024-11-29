@@ -689,7 +689,7 @@ class SecurityModel(ap.Model):
         pass
 
     def end(self):
-        """ self.camera_agents.record('recorded_detections_cameras')
+        self.camera_agents.record('recorded_detections_cameras')
         self.drone_agent.record('recorded_detections_dron')
         self.drone_agent.record('recorded_detections_utiles')
         self.drone_agent.record('recorded_detections_falsas')
@@ -788,7 +788,7 @@ class SecurityModel(ap.Model):
         plt.grid(axis='y')
         plt.show()
 
-        # Print final metrics
+
         utility = self.drone_agent[0].utility
         alarmRate = self.guard_agent[0].recorded_attacks / self.guard_agent[0].total_enemies
 
@@ -797,13 +797,6 @@ class SecurityModel(ap.Model):
         print(f'Precision (Drone): {precision:.2f}')
         print(f'Utility (Drone): {utility}')
         print(f'False Alarms Rate (Guard): {alarmRate:.2f}')
-
-
-        print('eficienciaCam = ' + str(eficienciaCam))
-        print('precision = ' + str(precision))
-        print('utility = ' + str(utility))
-        print('falseAlarm = ' + str(falseAlarms))
-        eficiencia = self.drone_agent[0].recorded_detections_dron / recorded_patrols """
     
 
 parameters = {
@@ -823,7 +816,7 @@ if __name__ == "__main__":
     model = SecurityModel(parameters)
     model.setup()
 
-    max_steps = 100
+    max_steps = 18
     current_step = 0
 
     print("Modelo de seguridad iniciado. Esperando datos...")
