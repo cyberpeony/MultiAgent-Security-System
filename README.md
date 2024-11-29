@@ -17,12 +17,19 @@ Sistema multiagente para patrullaje autónomo en zonas de riesgo. Integra 1 dron
     
  ### 3. Documentación
 - **Carpeta:** `Documentacion/`
-  - `Documentación - Evidencia 2 - Entrega Intermedia.pdf`: Propuesta formal del reto, que incluye:
+  - `Entrega Intermedia.pdf`: Propuesta formal del reto en la fase intermedia, que incluye:
     - Descripción del problema.
     - Propiedades de agentes y del ambiente.
     - Diagramas de clases y secuencia.
     - Plan de trabajo y métricas de evaluación.
-
+  - `Presentación_Pitch.pdf`: Presentación final (pitch) de nuestra propuesta.
+  - `Documentación_Final.pdf`: Propuesta formal del reto en la fase final, que incluye:
+    - Descripción del problema.
+    - Propiedades de agentes y del ambiente (Actualizadas dado las mejoras).
+    - Diagramas de clases y secuencia de protocolos de interacción (Actualizados, finales).
+    - Diagrama de la ontología (Nuevo).
+    - Utilidad o éxito de los agentes finales y sus gráficos (Actualizado y nuevo, respectivamente).
+    - Plan de trabajo y métricas de evaluación (Actualizado).
 ---
 
 ## Cómo usar este repositorio
