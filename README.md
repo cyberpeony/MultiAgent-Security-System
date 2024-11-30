@@ -7,12 +7,12 @@ Sistema multiagente para patrullaje autónomo en zonas de riesgo. Integra 1 dron
 
 ### 1. Código
 - **Carpeta:** `Codigo/`
-  - `DronAgentes.py`: Implementación de los agentes en Python (DroneAgent, GuardAgent, CameraAgent), la Ontología de Agentes y su lógica de interacción.
+  - `DroneAgents.py`: Implementación de los agentes en Python (DroneAgent, GuardAgent, CameraAgent, WindAgent), la Ontología de Agentes y su lógica de interacción.
   - `ontology.owl`: Script de manejo de la ontología.
 
 ### 2. Unity
 - **Carpeta:** `Unity/`
-  - `Unity.pdf`: Documento que contiene el link al ZIP del proyecto de Unity en OneDrive.
+  - `Unity (links).pdf`: Documento que contiene el link al ZIP del proyecto de Unity en OneDrive.
   - O también, podrás consultarlo desde [https://tecmx-my.sharepoint.com/:f:/g/personal/a01642991_tec_mx/EuwS9JaEPfZDibjqxOMPIswBWsZmSHfhwzty90_sGyTbEw?e=ZdFC5W](https://tecmx-my.sharepoint.com/:f:/g/personal/a01642991_tec_mx/EuwS9JaEPfZDibjqxOMPIswBc0Uv16r1om98RFH-yL52tA?e=3QXNKg)
     
  ### 3. Documentación
@@ -34,18 +34,7 @@ Sistema multiagente para patrullaje autónomo en zonas de riesgo. Integra 1 dron
 
 ## Cómo usar este repositorio
 
-### 1. Ejecutar el código Python
-- **Requisitos:**
-  - Python 3.x.
-  - Bibliotecas necesarias: `agentpy`, `owlready2`.
-- **Instrucciones:**
-  1. Ve a la carpeta `Codigo/`.
-  2. Ejecuta el script `DronAgentes.py`:
-     ```bash
-     python DronAgentes.py
-     ```
-### 2. Acceso a Unity
-
+### 1. Prepara el proyecto
 1. **Descomprime el archivo ZIP** encontrado a forma de link en la carpeta "Unity" en una carpeta, por ejemplo: `C:\Proyectos\MultiAgent-Security-System`.  
 
 2. **Abre Unity Hub**, haz clic en **"Add"** y selecciona la carpeta raíz del proyecto.  
@@ -54,7 +43,27 @@ Sistema multiagente para patrullaje autónomo en zonas de riesgo. Integra 1 dron
 
 4. **Abre el proyecto** desde Unity Hub. Unity procesará los archivos automáticamente.  
 
-Con estos pasos, deberías poder ejecutar el proyecto correctamente.
+### 2. Ejecutar el código de visión computacional y socket
+1. En los archivos del proyecto de unity, navega a `Assets/Script/openai_vision`.
+
+2. Ejecuta el archivo llamado `demo3.py`. Esto inicializará el servidor y esperará las imágenes que Unity proporciona en la simulación.
+   ```bash
+     python demo3.py
+     ```
+
+### 3. Ejecutar el código de agentes en Python
+- **Requisitos:**
+  - Python 3.x.
+  - Bibliotecas necesarias: `agentpy`, `owlready2`.
+- **Instrucciones:**
+  1. Ve a la carpeta `Codigo/`.
+  2. Ejecuta el script `DroneAgents.py`:
+     ```bash
+     python DroneAgents.py
+     ```
+### 3. Iniciliza Unity
+  1. Una vez abierto el proyecto de unity, da click en iniciar la simulación.
+
 
 ### 3. Consultar la documentación
 - El archivo principal está en `Documentacion/`. Contiene información detallada sobre el diseño del sistema y los planes de trabajo.
