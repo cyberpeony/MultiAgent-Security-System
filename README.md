@@ -2,6 +2,8 @@
 
 Sistema multiagente para patrullaje autónomo en zonas de riesgo. Integra 1 dron con cámara dinámica, 7 cámaras estáticas y personal de seguridad, todos con visión computacional para detectar y responder a riesgos o actividades sospechosas. Incluye código de los agentes, simulación en Unity y documentación.  
 
+Desarrollado durante la etapa de Enfoque del Tecnológico de Monterrey, este proyecto simula un sistema de patrullaje autónomo basado en agentes con visión computacional, diseñado para detectar amenazas en tiempo real dentro de zonas de riesgo. Fue construido integrando múltiples tecnologías como Unity, Python, Flask y OpenAI Vision.
+
 ---
 ## Contenido del repositorio
 
